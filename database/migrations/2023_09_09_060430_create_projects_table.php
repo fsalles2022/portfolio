@@ -8,27 +8,19 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('skill_id')->constrained()->cascadeOnDelete();
-            $table->string('name');
-            $table->string('image');
-            $table->string('project_url')->nullable();
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('projects');
     }
