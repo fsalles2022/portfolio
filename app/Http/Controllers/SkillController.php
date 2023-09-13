@@ -1,10 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Http\Resources\SkillResource;
+use App\Models\Skill;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
-
 class SkillController extends Controller
 {
     /**
@@ -12,7 +14,8 @@ class SkillController extends Controller
      */
     public function index()
     {
-        return "Skills";
+        //return "Skills";
+        return Inertia::render('Skills/Index');
     }
 
     /**
