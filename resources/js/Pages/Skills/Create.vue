@@ -8,8 +8,7 @@
     </template>
 
     <div class="py-12">
-    Form
-      <!-- <div class="max-w-md mx-auto sm:px-6 lg:px-8 bg-white">
+      <div class="max-w-md mx-auto sm:px-6 lg:px-8 bg-white">
         <form class="p-4" @submit.prevent="submit">
           <div>
             <BreezeLabel for="name" value="Name" />
@@ -43,7 +42,7 @@
             </BreezeButton>
           </div>
         </form>
-      </div> -->
+      </div>
     </div>
   </AuthenticatedLayout>
 </template>
@@ -51,14 +50,18 @@
 <script setup>
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
 import { Head, Link } from "@inertiajs/vue3";
-// import BreezeButton from "@/Components/Button.vue";
+import { useForm } from '@inertiajs/vue3';
+import BreezeButton from "/resources/js/Components/Button.vue";
+import BreezeInput from "/resources/js/Components/Input.vue";
+import BreezeInputError from "/resources/js/Components/InputError.vue";
+import BreezeLabel from "/resources/js/Components/Label.vue";
 
-// const form = useForm({
-//   name: "",
-//   image: null,
-// });
+const form = useForm({
+  name: "",
+  image: null,
+});
 
-// const submit = () => {
-//   form.post(route("skills.store"));
-// };
+const submit = () => {
+  form.post(route("skills.store"));
+};
 </script>
