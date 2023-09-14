@@ -12,9 +12,9 @@ class SkillController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+      public function index()
     {
-        //return "Skills";
+        //$skills = SkillResource::collection(Skill::all());
         return Inertia::render('Skills/Index');
     }
 
@@ -23,9 +23,8 @@ class SkillController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Skills/Create');
     }
-
     /**
      * Store a newly created resource in storage.
      */

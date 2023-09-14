@@ -21,6 +21,7 @@ defineProps({
 
 <template>
     <Head title="Planb WebApp" />
+    <h1>Home Portfólio</h1>
 </template>
     
 
