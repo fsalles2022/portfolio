@@ -30,7 +30,23 @@ class SkillController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        //dd ($request);
+        $request->validate([
+            'image' => ['required', 'image'],
+            'name' => ['required', 'min:3']
+        ]);
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image')->store('skills');
+            Skill::create([
+                'name' => $request->name,
+                'image' => $image
+            ]);
+
+            return Redirect::route('skills.index')->with('message', 'Skill created successfully.');
+        }
+        return Redirect::back();
     }
 
     /**
