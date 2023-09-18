@@ -34,6 +34,16 @@ return Inertia::render('projects/Index');
 ctrl-x 
 npm run dev.
 
+Passo 5 - Add Link para pagina de cadastro das skills - Armazenar Skill
+criar botão na index direcionando para págona de cadastro Create
+na pagina de cadastro criar form.
+configurar .env com ->  FILESYSTEM_DISK = public
+criar link para armazenam,ento de imagens->  php artisan storage:link
+configurar função Store na SkillController.
+
+Passo 6 - Add Link para pagina de cadastro das projects - Armazenar Projects
+
+
 
 
 
