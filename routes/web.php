@@ -7,6 +7,12 @@ use App\Http\Controllers\SkillController;
 use App\Http\Controllers\ProjectController;
 use Inertia\Inertia;
 
+
+
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

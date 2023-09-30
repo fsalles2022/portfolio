@@ -41,7 +41,7 @@
                 <th scope="col" class="py-3 px-6"></th>
               </tr>
             </thead>
-            <!-- <tbody>
+            <tbody>
               <tr
                 v-for="skill in skills.data"
                 :key="skill.id"
@@ -80,7 +80,7 @@
                   >
                 </td>
               </tr>
-            </tbody> -->
+            </tbody>
           </table>
         </div>
       </div>
