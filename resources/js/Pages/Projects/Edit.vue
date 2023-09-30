@@ -25,6 +25,10 @@
                             >
                                 {{ skill.name }}
                             </option>
+                            <BreezeInputError
+                                class="mt-2"
+                                :message="$page.props.errors.skill_id"
+                            />
                         </select>
                         <BreezeInputError
                             class="mt-2"
@@ -43,7 +47,7 @@
                         />
                         <BreezeInputError
                             class="mt-2"
-                            :message="form.errors.name"
+                            :message="$page.props.errors.name"
                         />
                     </div>
                     <div>
@@ -57,7 +61,7 @@
                         />
                         <BreezeInputError
                             class="mt-2"
-                            :message="form.errors.project_url"
+                            :message="$page.props.errors.project_url"
                         />
                     </div>
                     <div class="mt-2">
@@ -70,7 +74,7 @@
                         />
                         <BreezeInputError
                             class="mt-2"
-                            :message="form.errors.image"
+                            :message="$page.props.errors.image"
                         />
                     </div>
                     <div class="flex items-center justify-end mt-4">
@@ -111,7 +115,7 @@ const form = useForm({
 });
 
 const submit = () => {
-    router.post(`/projects/${props.project.id}`,{
+    router.post(`/projects/${props.project.id}`, {
         _method: "put",
         name: form.name,
         image: form.image,

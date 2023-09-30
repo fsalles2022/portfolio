@@ -84,14 +84,14 @@ class ProjectController extends Controller
             'project_url' => $request->project_url,
             'image' => $image
         ]);
-        return Redirect::route('projects.index');
+        return Redirect::route('projects.index')->with('message', 'Projeto atualizado com sucesso!');
     }
 
     public function destroy(Project $project)
     {
         Storage::delete($project->image);
         $project->delete();
-        return Redirect::route('projects.index');
+        return Redirect::route('projects.index')->with('message', 'Projeto deletado com sucesso!');
 
     }
 }

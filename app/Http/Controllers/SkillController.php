@@ -81,6 +81,6 @@ class SkillController extends Controller
     {
         Storage::delete($skill->image);
         $skill->delete();
-        return Redirect::route('skills.index')->with('Skill deletada com sucesso!');
+        return Redirect::route('skills.index')->with('message','Skill deletada com sucesso!');
     }
 }

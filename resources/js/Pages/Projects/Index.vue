@@ -40,7 +40,7 @@
                 <th scope="col" class="py-3 px-6">Nome Projeto</th>
                 <th scope="col" class="py-3 px-6">Skill</th>
                 <th scope="col" class="py-3 px-6">Imagem</th>
-                <th scope="col" class="py-3 px-6">Url</th>
+                <th scope="col" class="py-3 px-6">URL</th>
                 <th scope="col" class="py-3 px-6">Ação</th>
               </tr>
             </thead>
@@ -69,11 +69,8 @@
                 <td class="py-4 px-6">
                   <img :src="project.image" class="w-12 h-12 rounded-full" />
                 </td>
-                  <td class="py-4 px-6">{{ project.project_url }}</td>
-                
 
-
-
+                <td class="py-4 px-6">{{ project.project_url }}</td>
                 <td class="py-4 px-6">
                   <Link
                     :href="route('projects.edit', project.id)"

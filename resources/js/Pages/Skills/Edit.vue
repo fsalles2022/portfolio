@@ -20,6 +20,7 @@
               autofocus
               autocomplete="username"
             />
+      
             <BreezeInputError class="mt-2" :message="$page.props.errors.name" />
           </div>
           <div class="mt-2">
