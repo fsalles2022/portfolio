@@ -50,25 +50,13 @@ class SkillController extends Controller
         return Redirect::back();
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
+  
     public function edit(Skill $skill)
     {
         return Inertia::render('Skills/Edit', compact('skill'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
+    
     public function update(Request $request, Skill $skill)
     {
         $image = $skill->image;
@@ -89,11 +77,10 @@ class SkillController extends Controller
         return Redirect::route('skills.index')->with('message', 'Skill atualizada com sucesso!');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
+    public function destroy(Skill $skill)
     {
-        //
+        Storage::delete($skill->image);
+        $skill->delete();
+        return Redirect::route('skills.index')->with('Skill deletada com sucesso!');
     }
 }
