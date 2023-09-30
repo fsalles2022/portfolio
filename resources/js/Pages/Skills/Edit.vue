@@ -68,7 +68,7 @@ const props = defineProps({
 });
 
 const form = useForm({
-    name: props.skill?.name,
+    name: props.skill.name,
     image: null,
 });
 
