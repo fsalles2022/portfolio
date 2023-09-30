@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Skill;
+use App\Http\Resources\ProjectResource;
 use App\Models\Project;
-use Illuminate\Support\Facades\Redirect;
-
+use App\Models\Skill;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 
 class ProjectController extends Controller
@@ -17,7 +18,8 @@ class ProjectController extends Controller
     public function index()
     {
         //return "Projetos";
-        return Inertia::render('Projects/Index');
+        $projects = ProjectResource::collection(Project::with('skill')->get());
+        return Inertia::render('Projects/Index', compact('projects'));
     }
 
     /**
