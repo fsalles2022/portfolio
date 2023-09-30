@@ -35,13 +35,68 @@ ctrl-x
 npm run dev.
 
 Passo 5 - Add Link para pagina de cadastro das skills - Armazenar Skill
-criar botão na index direcionando para págona de cadastro Create
+criar botão na index direcionando para página de cadastro
 na pagina de cadastro criar form.
 configurar .env com ->  FILESYSTEM_DISK = public
-criar link para armazenam,ento de imagens->  php artisan storage:link
+criar link para armazenamento de imagens->  php artisan storage:link
 configurar função Store na SkillController.
+Criar SkillResource
+Criar função Store
+   public function store(Request $request)
+    {
 
-Passo 6 - Add Link para pagina de cadastro das projects - Armazenar Projects
+        //dd ($request);
+        $request->validate([
+            'image' => ['required', 'image'],
+            'name' => ['required', 'min:3']
+        ]);
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image')->store('skills');
+            Skill::create([
+                'name' => $request->name,
+                'image' => $image
+            ]);
+
+            return Redirect::route('skills.index')->with('message', 'Skill created successfully.');
+        }
+        return Redirect::back();
+    }
+
+
+Passo 6 - Add Link para pagina de cadastro das projects - Armazenar Projetos
+criar botão na index direcionando para página de cadastro Create
+na pagina de cadastro criar form.
+Criar ProjectResource
+Criar função CREATE
+   public function store(Request $request)
+    {
+        //dd ($request);
+        $request->validate([
+            'image' => ['required', 'image'],
+            'name' => ['required', 'min:3'],
+            'skill_id' => ['required']
+
+        ]);
+        if ($request->hasFile('image')) {
+            $image = $request->file('image')->store('projects');
+            Project::create(
+                [
+                    'image' => $image,
+                    'name' => $request->name,
+                    'skill_id' => $request->skill_id,
+                    'project_url' => $request->project_url,
+                ]
+            );
+            return redirect()->route('projects.index')->with('message', 'Projeto criado com sucesso!');
+        }
+        return Redirect::back();
+    }
+
+    Passo 6 - Criar ação para editar e deletar Skill
+    
+
+
 
 
 
