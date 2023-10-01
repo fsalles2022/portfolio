@@ -2,6 +2,7 @@
 import Header from "@/Components/Frontend/Header.vue";
 import Footer from "@/Components/Frontend/Footer.vue";
 import Hero from "@/Components/Frontend/Hero.vue";
+import Item from "@/Components/Frontend/Promote.vue";
 </script>
 <template>
   <div class="bg-slate-200 dark:bg-slate-900">
