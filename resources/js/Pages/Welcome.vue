@@ -1,7 +1,7 @@
 <script setup>
 import { Head, Link } from "@inertiajs/vue3";
 import Frontend from "@/Layouts/Frontend.vue";
-// import Hero from "resources/js/Components/Frontend/Hero.vue";
+import Hero from "@/Components/Frontend/Hero.vue";
 // import Promote from "resources/js/Components/Frontend/Promote.vue";
 // import About from "resources/js/Components/Frontend/About.vue";
 // import Skills from "resources/js/Components/Frontend/Skills.vue";
