@@ -1,7 +1,7 @@
 <script setup>
-// import Project from "@/Components/Frontend/Project.vue";
+ import Project from "/resources/js/Components/Frontend/Project.vue";
 // import Portfolio from "@/Components/Frontend/Portfolio.vue";
-// import Projects from "@/Components/Frontend/Projects.vue";
+ import Projects from "@/Components/Frontend/Projects.vue";
 // import { ref } from "vue";
 const props = defineProps({
   skills: Object,
@@ -77,7 +77,7 @@ const props = defineProps({
     </nav>
     <section class="grid gap-y-12 lg:grid-cols-3 lg:gap-8">
       <Project
-        v-for="project in filteredProjects"
+        v-for="project in projects.data"
         :key="project.id"
         :project="project"
       />
