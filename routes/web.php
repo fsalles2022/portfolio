@@ -5,6 +5,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SkillController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\WelcomeController;
 use Inertia\Inertia;
 
 
@@ -32,6 +33,7 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
+Route::get('/', [WelcomeController::class, 'welcome'])->name('Welcome');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

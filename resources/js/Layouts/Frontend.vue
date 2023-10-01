@@ -2,7 +2,9 @@
 import Header from "@/Components/Frontend/Header.vue";
 import Footer from "@/Components/Frontend/Footer.vue";
 import Hero from "@/Components/Frontend/Hero.vue";
-import Item from "@/Components/Frontend/Promote.vue";
+import Promote from "@/Components/Frontend/Promote.vue";
+import About from "@/Components/Frontend/About.vue";
+import Skills from "@/Components/Frontend/Skills.vue";
 </script>
 <template>
   <div class="bg-slate-200 dark:bg-slate-900">
