@@ -33,7 +33,7 @@ const filterProjects = (id) => {
             class="
               flex
               text-center
-              px-4
+              px-2
               py-2
               hover:bg-accent
               text-white
