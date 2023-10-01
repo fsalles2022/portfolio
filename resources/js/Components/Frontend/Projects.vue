@@ -2,26 +2,26 @@
  import Project from "/resources/js/Components/Frontend/Project.vue";
 // import Portfolio from "@/Components/Frontend/Portfolio.vue";
  import Projects from "@/Components/Frontend/Projects.vue";
-// import { ref } from "vue";
+ import { ref } from "vue";
 const props = defineProps({
   skills: Object,
   projects: Object,
 });
 
-// const filteredProjects = ref(props.projects.data);
-// const selectedSkill = ref("all");
+const filteredProjects = ref(props.projects.data);
+const selectedSkill = ref("all");
 
-// const filterProjects = (id) => {
-//   if (id === "all") {
-//     filteredProjects.value = props.projects.data;
-//     selectedSkill.value = id;
-//   } else {
-//     filteredProjects.value = props.projects.data.filter((project) => {
-//       return project.skill.id === id;
-//     });
-//     selectedSkill.value = id;
-//   }
-// };
+const filterProjects = (id) => {
+  if (id === "all") {
+    filteredProjects.value = props.projects.data;
+    selectedSkill.value = id;
+  } else {
+    filteredProjects.value = props.projects.data.filter((project) => {
+      return project.skill.id === id;
+    });
+    selectedSkill.value = id;
+  }
+};
 </script>
 <template>
   <div class="container mx-auto">
@@ -77,7 +77,7 @@ const props = defineProps({
     </nav>
     <section class="grid gap-y-12 lg:grid-cols-3 lg:gap-8">
       <Project
-        v-for="project in projects.data"
+        v-for="project in filteredProjects"
         :key="project.id"
         :project="project"
       />
