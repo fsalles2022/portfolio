@@ -18,7 +18,20 @@ import Frontend from "@/Layouts/Frontend.vue";
 <template>
   <Head title="Welcome to portfolio" />
   <Frontend>
- 
+     <!-- Hero primary -->
+    <Hero />
+    <!-- Promote tail-100 -->
+    <Promote />
+    <!-- About secondary -->
+    <About />
+    <!-- Skills tail-100 -->
+    <!-- <Skills :skills="skills" /> -->
+    <!-- Portfolio primary -->
+    <!-- <Portfolio :skills="skills" :projects="projects" /> -->
+    <!-- Services secondary -->
+    <Services />
+    <!-- Contact primary -->
+    <ContactMe />
   </Frontend>
 </template>
     
