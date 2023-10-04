@@ -79,7 +79,7 @@
                             :class="{ 'opacity-25': form.processing }"
                             :disabled="form.processing"
                         >
-                            Store
+                            Criar
                         </BreezeButton>
                     </div>
                 </form>
