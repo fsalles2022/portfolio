@@ -27,7 +27,7 @@
       <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
         <div class="inline-flex rounded-md shadow">
           <a
-            href="https://www.planbwebapp.com.br/contato/"
+            href="#contact"
             class="
               inline-flex
               items-center
