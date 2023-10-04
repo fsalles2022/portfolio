@@ -9,6 +9,7 @@ import Portfolio from "@/Components/Frontend/Portfolio.vue";
 import Services from "@/Components/Frontend/Services.vue";
 import ContactMe from "@/Components/Frontend/ContactMe.vue";
 
+
 defineProps({
   skills: Object,
   projects: Object,

@@ -44,7 +44,8 @@
               <a href="#" class="mr-4 hover:underline md:mr-6">Contato</a>
           </li>
       </ul>
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2021-2023 <a href="#" class="hover:underline">Planbwebapp™</a>. All Rights Reserved.</span>
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2021-2023
+       <a href="#" class="hover:underline">Planbwebapp™</a>. Direitos Reservados.</span>
   </div>
 </footer>
 </template>

@@ -42,10 +42,9 @@ const submit = () => {
       }"
     >
       <div class="flex flex-col items-center text-center">
-        <h2 class="section-title">Contact Me</h2>
+        <h2 class="section-title">Nos mande um email com suas dúvidas.</h2>
         <p class="subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-          labore nisium illum cupiditate reiciendis a numquam
+          Teremos o maior prazer em falr com você. Entraremos em contato peloEmail que você cadastrou conosco. Fique tranquilo, não iremos te incomodar com spans, anúncios ou qualquer coisa do tipo.
         </p>
       </div>
       <div class="flex flex-col lg:flex-row lg:gap-x-8">
@@ -90,9 +89,9 @@ const submit = () => {
               </svg>
             </div>
             <div>
-              <h4 class="font-body text-xl mb-1">Have a question?</h4>
-              <P class="mb-1 text-paragraph">I am here to help you.</P>
-              <p class="text-accent font-normal">Email me at john@doe.com</p>
+              <h4 class="font-body text-xl mb-1">tem alguma questão??</h4>
+              <P class="mb-1 text-paragraph">Iremos ajuda-lo!.</P>
+              <p class="text-accent font-normal">contato@planbwebapp.com.br</p>
             </div>
           </div>
           <div class="flex flex-col lg:flex-row gap-x-4">
@@ -132,9 +131,9 @@ const submit = () => {
               </svg>
             </div>
             <div>
-              <h4 class="font-body text-xl mb-1">Current Location</h4>
-              <P class="mb-1 text-paragraph">Tirana, Albania.</P>
-              <p class="text-accent font-normal">Serving clients worldwide.</p>
+              <h4 class="font-body text-xl mb-1">Onde estamos.</h4>
+              <P class="mb-1 text-paragraph">Carapicuíba - SP.</P>
+              <p class="text-accent font-normal">Para o mundo!</p>
             </div>
           </div>
         </div>
@@ -150,7 +149,7 @@ const submit = () => {
               rounded-lg
             "
           >
-            Thank you for contacting me.
+            Entraremos em contato o mais breve possível.
           </div>
           <div class="flex gap-8">
             <div>
@@ -158,7 +157,7 @@ const submit = () => {
                 v-model="form.name"
                 type="text"
                 class="input"
-                placeholder="Your Name"
+                placeholder="Nome:"
               />
               <span v-if="form.errors.name" class="text-sm m-2 text-red-400">{{
                 form.errors.name
@@ -169,7 +168,7 @@ const submit = () => {
                 v-model="form.email"
                 type="email"
                 class="input"
-                placeholder="Your Email"
+                placeholder="Email:"
               />
               <span v-if="form.errors.email" class="text-sm m-2 text-red-400">{{
                 form.errors.email
@@ -179,7 +178,7 @@ const submit = () => {
           <textarea
             v-model="form.body"
             class="textarea"
-            placeholder="Your Meassage"
+            placeholder="Menssagem:"
             spellcheck="false"
           ></textarea>
           <span v-if="form.errors.body" class="text-sm m-2 text-red-400">{{
