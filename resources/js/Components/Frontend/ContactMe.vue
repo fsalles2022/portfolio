@@ -90,7 +90,7 @@ const submit = () => {
             </div>
             <div>
               <h4 class="font-body text-xl mb-1">tem alguma questão??</h4>
-              <P class="mb-1 text-paragraph">Iremos ajuda-lo!.</P>
+              <p class="mb-1 text-paragraph">Iremos ajuda-lo!.</p>
               <p class="text-accent font-normal">contato@planbwebapp.com.br</p>
             </div>
           </div>

@@ -30,8 +30,8 @@
                         >
                             Sobre Mim.
                         </h2>
-                        <P class="mb-4 text-accent"
-                            >Sou desenvolvedor Web Freelance.</P
+                        <p class="mb-4 text-accent"
+                            >Sou desenvolvedor Web Freelance.<p/
                         >
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
                         <p class="mb-8">
