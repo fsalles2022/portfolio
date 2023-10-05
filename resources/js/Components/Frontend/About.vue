@@ -31,8 +31,7 @@
                             Sobre Mim.
                         </h2>
                         <p class="mb-4 text-accent"
-                            >Sou desenvolvedor Web Freelance.<p/
-                        >
+                            >Sou desenvolvedor Web Freelance.<p/>
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
                         <p class="mb-8">
                             Com foco nas tecnologias de deenvolvimento Laravel e
