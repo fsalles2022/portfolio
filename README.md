@@ -104,3 +104,115 @@ Criar função CREATE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git add .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deploy do prjeto na hospedaneusite.
+
+NPM RUN BUILD
+zipar projeto.
+Carregar na pasta do Cpanel
+
+Na Cpanel
+na pasta raiz do projeto criar  .htaccess
+Desempacotar arquivo zip com projeto.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^$ public/ [L]
+    RewriteRule (.*) public/$1 [L]
+</IfModule>
+
+Atualizar .env com dados do bd e Email.
+Ir no terminal do hospedagem e criar novo link:storage
+php artisan storage:link.
+
