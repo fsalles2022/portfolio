@@ -89,7 +89,7 @@ const submit = () => {
               </svg>
             </div>
             <div>
-              <h4 class="font-body text-xl mb-1">tem alguma questão??</h4>
+              <h4 class="font-body text-xl mb-1">Tem alguma questão??</h4>
               <p class="mb-1 text-paragraph">Iremos ajuda-lo!.</p>
               <p class="text-accent font-normal">contato@planbwebapp.com.br</p>
             </div>
@@ -186,7 +186,7 @@ const submit = () => {
           }}</span>
 
           <button class="btn btn-lg bg-accent hover:bg-secondary text-white">
-            Send message
+            Enviar Menssagem
           </button>
         </form>
       </div>

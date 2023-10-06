@@ -18,7 +18,7 @@
             <div class="flex flex-col xl:flex-row gap-24">
                 <img
                     class="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
-                    src="http://portfolio.test/images/aboutme.jpg"
+                          src="https://planbwebapp.com.br/images/aboutme.jpg"
                     alt="about"
                 />
                 <div
@@ -30,7 +30,7 @@
                         >
                             Sobre Mim.
                         </h2>
-                        <p class="mb-4 text-accent">Sou desenvolvedor Web Freelance.<p/>
+                        <p class="mb-4 text-accent">Sou desenvolvedor Web Freelance.</p>
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
                         <p class="mb-8">
                             Com foco nas tecnologias de deenvolvimento Laravel e
@@ -38,7 +38,7 @@
                             fluxogramas, escrita de querys de banco de dados
                             Mysql e ORM Eloquent, Html5, Css3, bootstrap,
                             TailwindCss, Git e Github, Deploy, Gerenciamento de
-                            CPanel, Docker, Sail, Artisan...
+                            CPanel, Docker, Sail, Artisan, Vite...
                         </p>
                     </div>
                     <a
