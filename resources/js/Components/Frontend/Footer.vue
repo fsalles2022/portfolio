@@ -23,26 +23,18 @@
       <p class="my-6 text-gray-500 dark:text-gray-400">Desenvolvimento de sistemas para a web - Entre em contato 11 95555-4621</p>
       <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
           <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">Sobre</a>
+              <a href="#about" class="mr-4 hover:underline md:mr-6 ">Sobre</a>
           </li>
           <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">Premium</a>
+              <a href="#portfolio" class="mr-4 hover:underline md:mr-6">Portfolio</a>
           </li>
           <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">Campanhas</a>
+              <a href="#services" class="mr-4 hover:underline md:mr-6 ">Serviços</a>
           </li>
           <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">Blog</a>
+              <a href="#contact" class="mr-4 hover:underline md:mr-6">Contato</a>
           </li>
-          <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">Programa de Afiliado</a>
-          </li>
-          <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">FAQs</a>
-          </li>
-          <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">Contato</a>
-          </li>
+       
       </ul>
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2021-2023
        <a href="#" class="hover:underline">Planbwebapp™</a>. Direitos Reservados.</span>
