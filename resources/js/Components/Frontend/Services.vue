@@ -57,8 +57,7 @@
           </div>
           <h4 class="text-xl font-medium mb-2">Web Design</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-            perferendis volm quibusdam ullam qui dolore.
+            Uma página da internet  ou website é desenvolvida pelo web designer. Esse profissional é responsável tanto pelo projeto estético de um site quanto por seu projeto funcional. Ou seja, o web designer se preocupa com a aparência e com a funcionalidade de um website, pensando na navegabilidade e na interação que os usuários terão com a página da internet criada.
           </p>
         </div>
         <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
@@ -97,8 +96,7 @@
           </div>
           <h4 class="text-xl font-medium mb-2">Web Development</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-            perferendis volm quibusdam ullam qui dolore.
+            O Web developer é o profissional que irá desenvolver o sistema de fato, utilizando as linguagens de programação. Ou seja, planeja, constrói e dá manutenção para tudo que roda em uma plataforma web. Esse profissional também precisa garantir que tudo funcione de acordo com o esperado. Também chamado de web developer ou programador, normalmente, divide-se suas áreas de atuação em apenas duas: front-end e back-end.
           </p>
         </div>
         <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
@@ -130,10 +128,10 @@
               />
             </svg>
           </div>
-          <h4 class="text-xl font-medium mb-2">Branding</h4>
+          <h4 class="text-xl font-medium mb-2">Sistema Web</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-            perferendis volm quibusdam ullam qui dolore.
+            Sistema Web é um sistema pensado e projetado para ser utilizado atreavés de qualquer dispositivo que tenha acesso a internet e a um navegado(Google, Chrome, Firefox, Opera e por ai vai...).
+            Acesso de qualquer lugar - Acesso por dispositivos móveis(celular, tablete, smarttv), Integração entre sistemas e sites, Segurança com certificado SSL, backup automatico de dados entre muitas outras comodidades, como acesso de vários usuários podendo integrar serviços de varias fliais usando o mesmo sistema.
           </p>
         </div>
         <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
@@ -167,8 +165,9 @@
           </div>
           <h4 class="text-xl font-medium mb-2">SEO</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-            perferendis volm quibusdam ullam qui dolore.
+            SEO é um conjunto de técnicas e estratégias para sites ficarem melhor posicionados nos buscadores, gerar reconhecimento de marca, aumentar o tráfego e converter mais.
+            Quando otimizamos um site para que ele fique melhor posicionado em um mecanismo de busca, como o Google, por exemplo, isso significa que implementamos neste site melhorias que obedecem a alguns critérios de qualidade específicos.
+
           </p>
         </div>
       </div>
