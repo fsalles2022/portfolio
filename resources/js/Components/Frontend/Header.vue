@@ -24,7 +24,7 @@ onMounted(() => {
   <nav
     class="w-full fixed z-20 border-gray-200 px-2 sm:px-4 py-2.5 rounded"
     :class="{
-      'bg-light-primary dark:bg-dark-primary': scrollBg,
+      'bg-slate-100 dark:bg-dark-primary': scrollBg,
       'bg-white dark:bg-slate-800': !scrollBg,
     }"
   >
@@ -68,7 +68,7 @@ onMounted(() => {
         aria-controls="navbar-default"
         aria-expanded="false"
       >
-        <span class="sr-only">Open main menu</span>
+        <span class="sr-only">Menu</span>
         <svg
           class="w-6 h-6"
           aria-hidden="true"
