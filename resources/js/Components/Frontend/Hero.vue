@@ -4,18 +4,7 @@
         id="home"
         class="lg:h-[85vh] flex items-center bg-light-primary dark:bg-dark-primary py-32 lg:py-0 overflow-hidden"
     >
-        <div
-            class="container mx-auto h-full"
-            v-motion
-            :initial="{
-                opacity: 0,
-                y: 100,
-            }"
-            :visible="{
-                opacity: 1,
-                y: 0,
-            }"
-        >
+        <div class="container mx-auto h-full">
             <div class="flex flex-col md:flex-row items-center h-full pt-10">
                 <div class="flex-1 flex flex-col items-center lg:items-start">
                     <p class="text-lg text-accent text-md mb-[22px]">
@@ -24,7 +13,7 @@
                     <h1
                         class="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]"
                     >
-                        Desenvolvimento& Design <br />
+                        Desenvolvimento & Design <br />
                         De Web Interfaces.
                     </h1>
                     <p
@@ -37,18 +26,18 @@
                     <button
                         class="btn btn-md bg-accent hover:bg-light-secondary hover:text-light-tail-500 dark:hover:bg-dark-secondary dark:hover:text-dark-navy-100 md:btn-lg transition-all"
                     >
-                        Work with me
+                        Chama!
                     </button>
                     <div class="pt-12">
                         <h5
                             class="text-lg flex justify-center lg:justify-start items-center text-black dark:text-white mb-2"
                         >
-                            Follow me on
+                            Segue nós...
                         </h5>
                         <div class="flex items-center mb-6">
                             <a
                                 class="w-12 h-12 rounded-full flex items-center justify-center border border-white text-black dark:text-white hover:bg-light-secondary hover:border-light-secondary dark:hover:bg-dark-secondary dark:hover:border-dark-secondary mr-3 sm:mr-4"
-                                href="https://facebook.com/laraveller"
+                                href="https://planbwebapp.com.br/"
                             >
                                 <svg
                                     width="8"
@@ -63,7 +52,7 @@
                             </a>
                             <a
                                 class="w-12 h-12 rounded-full flex items-center justify-center border border-white text-black dark:text-white hover:bg-light-secondary hover:border-light-secondary dark:hover:bg-dark-secondary dark:hover:border-dark-secondary mr-3 sm:mr-4"
-                                href="https://facebook.com/laraveller"
+                                href="https://planbwebapp.com.br/"
                             >
                                 <svg
                                     width="16"
@@ -78,7 +67,7 @@
                             </a>
                             <a
                                 class="w-12 h-12 rounded-full flex items-center justify-center border border-white text-black dark:text-white hover:bg-light-secondary hover:border-light-secondary dark:hover:bg-dark-secondary dark:hover:border-dark-secondary mr-3 sm:mr-4"
-                                href="https://facebook.com/laraveller"
+                                href="https://planbwebapp.com.br/"
                             >
                                 <svg
                                     width="16"
@@ -93,7 +82,7 @@
                             </a>
                             <a
                                 class="w-12 h-12 rounded-full flex items-center justify-center border border-white text-black dark:text-white hover:bg-light-secondary hover:border-light-secondary dark:hover:bg-dark-secondary dark:hover:border-dark-secondary mr-3 sm:mr-4"
-                                href="https://facebook.com/laraveller"
+                                href="https://planbwebapp.com.br/"
                             >
                                 <svg
                                     width="14"
@@ -114,7 +103,7 @@
                 >
                     <img
                         class="rounded-lg"
-                        src="https://planbwebapp.com.br/images/hero.png"
+                        src="https://planbwebapp.com.br/images/hero.jpg"
                         alt="Hero"
                     />
                 </div>

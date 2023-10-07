@@ -199,6 +199,7 @@ git add .
 deploy do prjeto na hospedaneusite.
 
 NPM RUN BUILD
+excluir node_modules e git
 zipar projeto.
 Carregar na pasta do Cpanel
 
@@ -214,5 +215,34 @@ Desempacotar arquivo zip com projeto.
 
 Atualizar .env com dados do bd e Email.
 Ir no terminal do hospedagem e criar novo link:storage
-php artisan storage:link.
+php artisan storage:link
+
+
+
+
+/////////////////////////////////////////////////////////////////
+
+*******Configuar Local e Lilngua
+'timezone' => 'UTC', altere para 
+
+'timezone' => 'America/Sao_Paulo',
+Linha 81  'locale' => 'en',  altere para 
+
+'locale' => 'pt-BR',
+Linha 94 'fallback_locale' => 'en',  altere para 
+
+'fallback_locale' => 'pt-BR'
+
+resources/assets/lang
+crie diretorio pt_BR
+
+'timezone' => 'UTC', altere para 
+
+'timezone' => 'America/Sao_Paulo',
+Linha 81  'locale' => 'en',  altere para 
+
+'locale' => 'pt-BR',
+Linha 94 'fallback_locale' => 'en',  altere para 
+
+'fallback_locale' => 'pt-BR'
 

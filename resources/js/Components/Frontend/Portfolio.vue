@@ -23,7 +23,7 @@ defineProps({
       }"
     >
       <div class="flex flex-col items-center text-center">
-        <h2 class="section-title">Últimos Trablhos!</h2>
+        <h2 class="section-title">Jobs!</h2>
         <p class="subtitle">
           Visite nossos projetos...
         </p>

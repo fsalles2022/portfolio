@@ -33,11 +33,11 @@ onMounted(() => {
       bis_skin_checked="1"
     >
       <a href="https://planbwebapp.com.br/" class="flex items-center">
-        <!-- <img
-          src="http://portfolio.test/img/logo.png"
+        <img
+          src="https://planbwebapp.com.br/images/logo.jpeg"
           class="mr-3 h-6 sm:h-9"
           alt="Planbwebapp Logo"
-        /> -->
+        />
         <span
           class="
             self-center
