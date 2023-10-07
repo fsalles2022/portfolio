@@ -34,7 +34,7 @@ onMounted(() => {
     >
       <a href="https://planbwebapp.com.br/" class="flex items-center">
         <img
-          src="https://planbwebapp.com.br/images/logo.jpeg"
+          src="https://planbwebapp.com.br/images/logo.png"
           class="mr-3 h-6 sm:h-9"
           alt="Planbwebapp Logo"
         />
