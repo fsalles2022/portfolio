@@ -8,7 +8,7 @@ const navigations = [
   { name: "Sobre", href: "#about" },
   { name: "Portfolio", href: "#portfolio" },
   { name: "Serviços", href: "#services" },
-
+  { name: "Contato", href: "#contact" },
 ];
 const setScrollBg = (value) => {
   scrollBg.value = value;
@@ -36,7 +36,7 @@ onMounted(() => {
         <!-- <img
           src="http://portfolio.test/img/logo.png"
           class="mr-3 h-6 sm:h-9"
-          alt="Laraveller Logo"
+          alt="Planbwebapp Logo"
         /> -->
         <span
           class="
