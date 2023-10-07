@@ -24,14 +24,14 @@
                     <h1
                         class="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]"
                     >
-                        Criamos & Design <br />
-                        Web Interfaces.
+                        Desenvolvimento& Design <br />
+                        De Web Interfaces.
                     </h1>
                     <p
                         class="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left"
                     >
                         Com seu domínio próprio alcance novos oportunidades de
-                        negócios. deixe que as pessos te encontrem, crie sua
+                        negócios. deixe que as pessoas e empresas te encontrem. Crie sua
                         marca na WEB.
                     </p>
                     <button
