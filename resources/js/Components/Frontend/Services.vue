@@ -20,10 +20,10 @@
     >
       <div class="flex flex-col items-center text-center">
         <h2 class="section-title">O que eu faço para os clientes</h2>
-        <p class="subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-          labore nisium illum cupiditate reiciendis a numquam
+        <p>
+          Tenha seus projetos e sistemas em um lugar de destaque!
         </p>
+        <br/>
       </div>
       <div class="grid lg:grid-cols-4 gap-8">
         <div class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl">
@@ -36,7 +36,7 @@
               flex
               justify-center
               items-center
-              mb-24
+              mb-10
               text-[28px]
             "
           >
@@ -55,7 +55,7 @@
               />
             </svg>
           </div>
-          <h4 class="text-xl font-medium mb-2">Web Design</h4>
+          <h4 class="text-xl font-medium mb-1">Web Design</h4>
           <p>
             Uma página da internet  ou website é desenvolvida pelo web designer. Esse profissional é responsável tanto pelo projeto estético de um site quanto por seu projeto funcional. Ou seja, o web designer se preocupa com a aparência e com a funcionalidade de um website, pensando na navegabilidade e na interação que os usuários terão com a página da internet criada.
           </p>
@@ -70,7 +70,7 @@
               flex
               justify-center
               items-center
-              mb-24
+              mb-10
               text-[28px]
             "
           >
@@ -109,7 +109,7 @@
               flex
               justify-center
               items-center
-              mb-24
+              mb-10
               text-[28px]
             "
           >
@@ -144,7 +144,7 @@
               flex
               justify-center
               items-center
-              mb-24
+              mb-10
               text-[28px]
             "
           >

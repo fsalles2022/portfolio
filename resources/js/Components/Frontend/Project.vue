@@ -18,7 +18,7 @@ defineProps({
       y: 0,
     }"
   >
-    <div class="mb-6">
+    <div class="mb-4">
       <img class="rounded-2xl h-56" :src="project.image" :alt="project.name" />
     </div>
     <span
@@ -26,7 +26,7 @@ defineProps({
         group-hover:text-light-tail-500
         capitalize
         text-accent text-sm
-        mb-3
+        mb-1
       "
       >{{ project.skill.name }}</span
     >
@@ -36,7 +36,7 @@ defineProps({
         text-2xl
         font-semibold
         capitalize
-        mb-3
+        mb-2
       "
     >
       {{ project.name }}

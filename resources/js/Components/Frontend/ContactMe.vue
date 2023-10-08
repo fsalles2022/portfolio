@@ -43,11 +43,11 @@ const submit = () => {
     >
       <div class="flex flex-col items-center text-center">
         <h2 class="section-title">Nos mande um email com suas dúvidas.</h2>
-        <p class="subtitle">
+        <p>
           Teremos o maior prazer em falr com você. Entraremos em contato peloEmail que você cadastrou conosco. Fique tranquilo, não iremos te incomodar com spans, anúncios ou qualquer coisa do tipo.
         </p>
       </div>
-      <div class="flex flex-col lg:flex-row lg:gap-x-8">
+      <div class="flex flex-col lg:flex-row lg:gap-x-8 mt-10">
         <div
           class="
             flex flex-1 flex-col

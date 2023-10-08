@@ -24,7 +24,7 @@ defineProps({
     >
       <div class="flex flex-col items-center text-center">
         <h2 class="section-title">Jobs!</h2>
-        <p class="subtitle">
+        <p>
           Visite nossos projetos...
         </p>
       </div>
