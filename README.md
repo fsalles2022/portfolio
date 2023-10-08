@@ -246,3 +246,4 @@ Linha 94 'fallback_locale' => 'en',  altere para
 
 'fallback_locale' => 'pt-BR'
 
+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
