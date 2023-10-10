@@ -17,7 +17,7 @@ defineProps({
 </script>
 
 <template>
-  <Head title="Welcome to portfolio" />
+  <Head title="Planbwebapp" />
   <Frontend>
      <!-- Hero primary -->
     <Hero />

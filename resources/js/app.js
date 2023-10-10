@@ -19,6 +19,9 @@ createInertiaApp({
             .use(plugin)
             .use(ZiggyVue, Ziggy)
             .use(MotionPlugin)
+
+
+            
             .mount(el);
            
     },

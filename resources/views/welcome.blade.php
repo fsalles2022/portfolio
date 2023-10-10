@@ -136,5 +136,6 @@
                 </div>
             </div>
         </div>
+        <script>window.rwbp={email:'fabiolfs76@hotmail.com',phone:'5511918343312',message:'Seja bem vindo! Como podemos ajudar?',lang:'pt-BR'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>
     </body>
 </html>

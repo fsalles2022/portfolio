@@ -1,24 +1,24 @@
 <script setup></script>
 <template>
-    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
-        <div class="mx-auto max-w-screen-xl text-center">
+    <footer class="p-4 bg-dark-primary md:p-8 lg:p-10 dark:bg-gray-800 hover:bg-teal-900 ">
+        <div class="mx-auto max-w-screen-xl text-center text-amber-300">
             <a
                 href="/"
                 class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
             >
                 <img
                     src="https://planbwebapp.com.br/images/logo2.webp"
-                    class="mr-3 h-6 sm:h-9"
+                    class="mr-3 h-6 sm:h-9 "
                     alt="Planbwebapp Logo"
                 />
-                Planbwebapp™
+                <p class="text-amber-300">Planbwebapp™</p>
             </a>
-            <p class="my-6 text-gray-500 dark:text-gray-400">
-                Desenvolvimento de sistemas para a web - Entre em contato 11
+            <p class="my-6 text-amber-300 dark:text-gray-400">
+                Desenvolvimento de sistemas para a web - Entre em contato 11 91834-3312 ou 11
                 95555-4621
             </p>
             <ul
-                class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white"
+                class="flex flex-wrap justify-center items-center mb-6 text-gray-900 text-amber-300 dark:text-white hover"
             >
                 <li>
                     <a href="#about" class="mr-4 hover:underline md:mr-6"
@@ -42,11 +42,12 @@
                 </li>
             </ul>
             <span
-                class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+                class="text-sm text-amber-300 sm:text-center  dark:text-gray-400"
                 >© 2021-2023
-                <a href="#" class="hover:underline">Planbwebapp™</a>. Direitos
+                <a href="#" class="hover:underline">Planbwebapp™</a> -  Direitos
                 Reservados.</span
             >
+            <p>Laravel&VueJs</p>
         </div>
     </footer>
 </template>

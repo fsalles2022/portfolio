@@ -28,7 +28,7 @@ const submit = () => {
 };
 </script>
 <template>
-  <section id="contact" class="section bg-light-primary dark:bg-dark-primary">
+  <section id="contact" class="section bg-amber-300 dark:bg-dark-primary">
     <div
       class="container mx-auto"
       v-motion
@@ -42,12 +42,14 @@ const submit = () => {
       }"
     >
       <div class="flex flex-col items-center text-center">
-        <h2 class="section-title">Nos mande um email com suas dúvidas.</h2>
+        <h2 class="section-title">Nos mande um email com suas dúvidas ou idéias.</h2>
         <p>
-          Teremos o maior prazer em falr com você. Entraremos em contato peloEmail que você cadastrou conosco. Fique tranquilo, não iremos te incomodar com spans, anúncios ou qualquer coisa do tipo.
+          Teremos o maior prazer em atendê-lo(as). Entraremos em contato pelo Email que você cadastrou conosco. Fique tranquilo, não iremos te incomodar com spans, anúncios ou qualquer coisa do tipo.
         </p>
       </div>
-      <div class="flex flex-col lg:flex-row lg:gap-x-8 mt-10">
+
+
+      <div class="flex flex-col lg:flex-row lg:gap-x-8 mt-10 t">
         <div
           class="
             flex flex-1 flex-col
@@ -57,7 +59,7 @@ const submit = () => {
             lg:mb-0 lg:pt-2
           "
         >
-          <div class="flex flex-col lg:flex-row gap-x-4">
+          <div class="flex flex-col bg:flex-row lg:flex-row gap-x-4">
             <div
               class="
                 text-accent
@@ -89,7 +91,7 @@ const submit = () => {
               </svg>
             </div>
             <div>
-              <h4 class="font-body text-xl mb-1">Tem alguma questão?</h4>
+              <h4 class="font-body text-xl mb-1">Tem uma idéia?</h4>
               <p class="mb-1 text-paragraph">Iremos ajuda-lo!.</p>
               <p class="text-accent font-normal">contato@planbwebapp.com.br</p>
             </div>
@@ -149,7 +151,7 @@ const submit = () => {
               rounded-lg
             "
           >
-            Entraremos em contato o mais breve possível.
+            Obrigado por entar em contato! Logo iremos lhe retornar.
           </div>
           <div class="flex gap-8">
             <div>

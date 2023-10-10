@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-orange-300 dark:bg-dark-navy-500">
+  <div class="bg-dark-primary dark:bg-dark-navy-500">
     <div
       class="
         container
@@ -21,7 +21,7 @@
         "
       >
         <span class="block">Pronto para desenvolver?</span>
-        <span class="block text-dark-primary dark:text-white">Desenvolvimento! Acompanhamos as mudanças com a velocidade e eficiência que a Web exige.</span
+        <span class="block text-slate-primary dark:text-white">Acompanhamos as mudanças com a velocidade e eficiência que a Web exige.</span
         >
       </h2>
       <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">

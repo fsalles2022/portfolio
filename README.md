@@ -213,7 +213,11 @@ Desempacotar arquivo zip com projeto.
     RewriteRule (.*) public/$1 [L]
 </IfModule>
 
+	
+
 Atualizar .env com dados do bd e Email.
+planbwe1_portfolio
+portfolio@fabio
 Ir no terminal do hospedagem e criar novo link:storage
 php artisan storage:link
 

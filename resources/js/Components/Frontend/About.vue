@@ -1,7 +1,7 @@
 <template>
     <section
         id="about"
-        class="section bg-light-secondary dark:bg-dark-secondary"
+        class="section bg-amber-300 dark:bg-dark-secondary"
     >
         <div
             class="container mx-auto"
@@ -32,7 +32,7 @@
                         </h2>
                         <p class="mb-4 text-accent">Sou desenvolvedor Web Freelance.</p>
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
-                        <p class="mb-8">
+                        <p class="mb-8 text-yellow-950">
                             Formado em Gestão da Tecnologia da Infromação. <br/>
                             Com foco nas tecnologias de desenvolvimento Laravel e
                             VueJs. Conhecimentos no desenvolvimento de
