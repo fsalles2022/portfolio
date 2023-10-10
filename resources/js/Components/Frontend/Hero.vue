@@ -2,10 +2,10 @@
 <template>
     <section
         id="home"
-        class="lg:h-[115vh] flex items-center bg-amber-300 dark:bg-dark-primary py-32 lg:py-0 overflow-hidden"
+        class="lg:h-[115vh] flex items-center bg-amber-300 dark:bg-dark-primary py-32 lg:py-0 overflow-hidden "
     >
         <div
-            class="container mx-auto h-full"
+            class="container mx-auto h-full mt-8"
         >
             <div class="flex flex-col md:flex-row items-center h-full pt-10">
                 <div class="flex-1 flex flex-col items-center lg:items-start">
