@@ -15,9 +15,9 @@
                 y: 0,
             }"
         >
-            <div class="flex flex-col xl:flex-row gap-16">
+            <div class=" flex flex-col xl:flex-row gap-16">
                 <img
-                    class="object-cover h-full w-[300px] md:mx-auto lg:mx-0 rounded-3xl"
+                    class="object-cover h-full w-[300px] md:mx-auto lg:mx-0 rounded-3xl justify-items"
                           src="https://planbwebapp.com.br/images/aboutme.jpg"
                     alt="about"
                 />
@@ -26,13 +26,13 @@
                 >
                     <div class="flex flex-col">
                         <h2
-                            class="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3"
+                            class="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-2"
                         >
                             Sobre Mim.
                         </h2>
-                        <p class="mb-4 text-accent">Sou desenvolvedor Web Freelance.</p>
+                        <p class="mb-3 text-accent text-lg">Desenvolvedor Web Freelance.</p>
                         <hr class="mb-8 opacity-90 dark:opacity-5" />
-                        <p class="mb-8 text-yellow-950">
+                        <p class="mb-8 text-yellow-950 text-xl">
                             Formado em Gestão da Tecnologia da Infromação. <br/>
                             Com foco nas tecnologias de desenvolvimento Laravel e
                             VueJs. Conhecimentos no desenvolvimento de
@@ -44,7 +44,7 @@
                     </div>
                     <a
                         href="#contact"
-                        class="btn btn-md bg-accent text-light-tail-100"
+                        class="btn btn-md bg-accent text-light-tail-100 rounded-md"
                     >
                         Chama!
                     </a>

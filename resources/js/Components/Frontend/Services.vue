@@ -20,47 +20,47 @@
         >
             <div class="flex flex-col items-center text-center">
                 <h2 class="section-title text-yellow-300">O que eu faço para os clientes</h2>
-                <p class="text-yellow-200">Tenha seus projetos e sistemas em um lugar de destaque!</p>
+                <p class="text-lime-300 text-lg">Tenha seus projetos e sistemas em um lugar de destaque!</p>
                 <br />
             </div>
             <div class="grid lg:grid-cols-4 gap-8">
                 <div
-                    class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl"
+                    class="bg-yellow-300 dark:bg-dark-navy-500 p-6 rounded-2xl"
                 >
                     <div
                         class="text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]"
                     >
                         <img
                             class="rounded-lg"
-                            src="http://portfolio.test/images/ux.png"
+                            src="https://planbwebapp.com.br/images/ux.png"
                             alt="Hero"
                         />
                     </div>
-                    <h4 class="text-xl font-medium mb-1">Web Design</h4>
-                    <p class="text-sm">
+                    <h4 class="text-xl font-medium mb-1">WEB DESIGN</h4>
+                    <p class="text-xl text-dark-primary">
                         Uma página da internet ou website é desenvolvida pelo
                         web designer. Esse profissional é responsável tanto pelo
                         projeto estético de um site quanto por seu projeto
-                        funcional. Ou seja, o web designer se preocupa com a
+                        funcional, ou seja, o web designer se preocupa com a
                         aparência e com a funcionalidade de um website, pensando
                         na navegabilidade e na interação que os usuários terão
                         com a página da internet criada.
                     </p>
                 </div>
                 <div
-                    class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl"
+                    class="bg-yellow-300 dark:bg-dark-navy-500 p-6 rounded-2xl"
                 >
                     <div
                         class="text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]"
                     >
                         <img
                             class="rounded-lg"
-                            src="http://portfolio.test/images/software.png"
+                            src="https://planbwebapp.com.br/images/app-development.png"
                             alt="Hero"
                         />
                     </div>
-                    <h4 class="text-xl font-medium mb-2">Web Development</h4>
-                    <p class="text-sm">
+                    <h4 class="text-xl font-medium mb-2">DESENVOLVIMENTO WEB</h4>
+                    <p class="text-xl text-dark-primary">
                         O Web developer é o profissional que irá desenvolver o
                         sistema de fato, utilizando as linguagens de
                         programação. Ou seja, planeja, constrói e dá manutenção
@@ -72,19 +72,19 @@
                     </p>
                 </div>
                 <div
-                    class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl"
+                    class="bg-yellow-300 dark:bg-dark-navy-500 p-6 rounded-2xl"
                 >
                     <div
                         class="text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]"
                     >
                         <img
                             class="rounded-lg"
-                            src="http://portfolio.test/images/software.png"
+                            src="https://planbwebapp.com.br/images/software.png"
                             alt="Hero"
                         />
                     </div>
-                    <h4 class="text-xl font-medium mb-2">Sistema Web</h4>
-                    <p class="text-sm">
+                    <h4 class="text-xl font-medium mb-2">SISTEMAS WEB</h4>
+                    <p class="text-xl text-dark-primary">
                         Sistema Web é um sistema pensado e projetado para ser
                         utilizado atreavés de qualquer dispositivo que tenha
                         acesso a internet e a um navegado(Google, Chrome,
@@ -98,19 +98,19 @@
                     </p>
                 </div>
                 <div
-                    class="bg-light-tail-100 dark:bg-dark-navy-500 p-6 rounded-2xl"
+                    class="bg-yellow-300 dark:bg-dark-navy-500 p-6 rounded-2xl"
                 >
                     <div
                         class="text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]"
                     >
                         <img
                             class="rounded-lg"
-                            src="http://portfolio.test/images/seo.png"
+                            src="https://planbwebapp.com.br/images/seo.png"
                             alt="Hero"
                         />
                     </div>
                     <h4 class="text-xl font-medium mb-2">SEO</h4>
-                    <p class="text-sm">
+                    <p class="text-xl text-dark-primary">
                         SEO é um conjunto de técnicas e estratégias para sites
                         ficarem melhor posicionados nos buscadores, gerar
                         reconhecimento de marca, aumentar o tráfego e converter

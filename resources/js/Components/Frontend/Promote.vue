@@ -13,18 +13,20 @@
       <h2
         class="
           text-3xl
+          text-center
           font-bold
           tracking-tight
-          text-light-tail-500
+          text-lime-500
           dark:text-dark-navy-100
           sm:text-4xl
+          lg:text-left
         "
       >
         <span class="block">Pronto para desenvolver?</span>
-        <span class="block text-slate-primary dark:text-white">Acompanhamos as mudanças com a velocidade e eficiência que a Web exige.</span
+        <span class="block dark:text-white">Acompanhamos as mudanças com a velocidade e eficiência que a Web exige.</span
         >
       </h2>
-      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center">
         <div class="inline-flex rounded-md shadow">
           <a
             href="#contact"
@@ -34,7 +36,7 @@
               justify-center
               rounded-md
               border border-transparent
-              bg-light-secondary
+              bg-lime-300
               dark:bg-dark-secondary
               px-5
               py-3

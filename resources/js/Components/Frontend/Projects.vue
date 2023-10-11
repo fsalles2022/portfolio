@@ -1,6 +1,5 @@
 <script setup>
  import Project from "/resources/js/Components/Frontend/Project.vue";
-// import Portfolio from "@/Components/Frontend/Portfolio.vue";
  import Projects from "@/Components/Frontend/Projects.vue";
  import { ref } from "vue";
 const props = defineProps({
@@ -27,7 +26,7 @@ const filterProjects = (id) => {
   <div class="container mx-auto">
     <nav class="mb-12 border-b-2 border-light-tail-100 dark:text-dark-navy-100">
       <ul class="flex flex-col lg:flex-row justify-evenly items-center">
-        <li class="cursor-pointer capitalize m-4">
+        <li class="cursor-pointer capitalize m-2">
           <button
             @click="filterProjects('all')"
             class="
@@ -35,7 +34,7 @@ const filterProjects = (id) => {
               text-center
               px-2
               py-2
-              hover:bg-accent
+              hover:bg-dark-primary
               text-white
               rounded-md
             "
@@ -60,7 +59,7 @@ const filterProjects = (id) => {
               text-center
               px-4
               py-2
-              hover:bg-accent
+              hover:bg-dark-primary
               text-white
               rounded-md
             "

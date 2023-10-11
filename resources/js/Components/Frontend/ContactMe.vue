@@ -41,9 +41,9 @@ const submit = () => {
         y: 0,
       }"
     >
-      <div class="flex flex-col items-center text-center">
+      <div class="flex flex-col items-center text-center text-dark-primary">
         <h2 class="section-title">Nos mande um email com suas dúvidas ou idéias.</h2>
-        <p>
+        <p class="text-xl text-dark-primary">
           Teremos o maior prazer em atendê-lo(as). Entraremos em contato pelo Email que você cadastrou conosco. Fique tranquilo, não iremos te incomodar com spans, anúncios ou qualquer coisa do tipo.
         </p>
       </div>
@@ -187,7 +187,7 @@ const submit = () => {
             form.errors.body
           }}</span>
 
-          <button class="btn btn-lg bg-accent hover:bg-secondary text-white">
+          <button class="btn btn-lg bg-accent hover:bg-secondary text-white rounded-md">
             Enviar Menssagem
           </button>
         </form>

@@ -2,27 +2,27 @@
 <template>
     <section
         id="home"
-        class="lg:h-[115vh] flex items-center bg-amber-300 dark:bg-dark-primary py-32 lg:py-0 overflow-hidden "
+        class="pt-4 lg:h-[115vh] flex items-center bg-amber-300 dark:bg-dark-primary py-32 lg:py-0 overflow-hidden"
     >
-        <div
-            class="container mx-auto h-full mt-8"
-        >
-            <div class="flex flex-col md:flex-row items-center h-full pt-10">
+        <div class=" container mx-auto h-full ">
+            <div class="flex flex-col md:flex-row items-center h-full mt-12 ">
                 <div class="flex-1 flex flex-col items-center lg:items-start">
-                    <p class="text-lg text-accent text-md mt-6">
+                    <p class="text-xl text-accent mt-6">
                         Boa! Fabio aqui 👋
                     </p>
                     <h1
-                        class="text-3xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]"
+                        class="pb-2 text-3xl leading-[44px] text-center lg:text-left md:text-5xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-2px]"
                     >
-                        Desenvolvimento Web & Design
+                        Desenvolvimento & Design <br />
+                         Interfaces da Web.
                     </h1>
                     <p
-                        class="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left"
+                        class="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-xl text-center lg:text-left text-amber-950"
                     >
-                        Tenha seu site, sua loja onLine ou o projeto da sua empresa na Web. Alcance novas oportunidades de
-                        negócios. Deixe que as pessoas e empresas te encontrem.
-                        Crie sua marca na WEB.
+                        Tenha seu site, sua loja onLine ou o projeto da sua
+                        empresa na Web. Alcance novas oportunidades de negócios.
+                        Deixe que as pessoas e empresas te encontrem. Crie sua
+                        marca na WEB.
                     </p>
                     <button
                         class="btn btn-md bg-accent hover:bg-light-secondary hover:text-light-tail-500 dark:hover:bg-dark-secondary dark:hover:text-dark-navy-100 md:btn-lg transition-all"
